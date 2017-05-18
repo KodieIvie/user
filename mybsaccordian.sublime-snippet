@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+.panel-group#myaccordian>.panel.panel-primary>(.panel-heading>h3.panel-title[data-target="#panel-1"][data-toggle="collapse"][data-parent="#myaccordian"])+(.panel-collapse.collapse#panel-1>.panel-body>p)
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mybsacc</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>
+
+

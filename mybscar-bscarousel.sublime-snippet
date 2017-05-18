@@ -1,0 +1,53 @@
+<snippet>
+	<content><![CDATA[
+
+<div class="carousel slide" id#"mySlider" data-ride="carousel">
+<ol class="carousel-indicators">
+	<li data-target="mySlider" data-slide-to="0"></li>
+	<li data-target="mySlider" data-slide-to="1"></li>
+	<li data-target="mySlider" data-slide-to="2"></li>
+	<li data-target="mySlider" data-slide-to="3"></li>
+</ol>
+	<div class="carousel-inner">
+		<div class="item">
+			<img src="" alt="">
+			<div class="carousel-caption">
+				<h2></h2>
+			</div>
+		</div>
+		<div class="item">
+			<img src="" alt="">
+			<div class="carousel-caption">
+				<h2></h2>
+			</div>
+		</div>
+		<div class="item">
+			<img src="" alt="">
+			<div class="carousel-caption">
+				<h2></h2>
+			</div>
+		</div>
+		<div class="item">
+			<img src="" alt="">
+			<div class="carousel-caption">
+				<h2></h2>
+			</div>
+		</div>
+	</div>
+</div> 
+<!-- options -->
+<!-- \$(function(){
+	\$('.carousel').carousel({
+		interval: 1000,
+		pause: false,
+		wrap: true,
+		keyboard: true
+	});
+}); -->
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mybscar</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+<div class="row"><!-- exclude from multiple panels -->
+
+	<div class="col-xs-6 col-sm-3"> 
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<h1 class="panel-title"></h1>
+			</div>
+			<div class="panel-body"><p></p></div>
+			<div class="panel-footer"><a href=""></a></div>
+		</div>
+	</div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mybspan</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>
+
+

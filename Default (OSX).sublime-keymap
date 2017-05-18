@@ -1,0 +1,4 @@
+[
+	{ "keys": ["command+i"], "command": "reindent" },
+	{ "keys": [""], "command": "" },
+]

@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+<div class="modal" id="mymodal">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+			<button class="close" type="button" data-dismiss="modal">x</button>
+			<h2 class="modal-title">Panel Title</h2>
+		</div>
+		<div class="modal-body">
+			<p>This is a modal panel</p>
+			</div>
+		</div>
+	</div>
+</div> <!--- MODAL END --> 
+<!-- <a href="#" data-toggle="modal" data-target="#mymodal">More info... </a> -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mybsmod</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>
+
