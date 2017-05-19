@@ -10,6 +10,7 @@
 		"Bootstrap 3 Snippets",
 		"Bootstrap 4 Autocomplete",
 		"Bootstrap 4 Snippets",
+		"Canvas Snippets",
 		"Color Highlighter",
 		"CSS Snippets",
 		"Emmet",
@@ -25,6 +26,8 @@
 		"jQuery Snippets pack",
 		"JS Snippets",
 		"JSONLint",
-		"Package Control"
+		"MySQL Snippets",
+		"Package Control",
+		"SASS Snippets"
 	]
 }

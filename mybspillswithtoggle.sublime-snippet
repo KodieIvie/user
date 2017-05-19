@@ -1,0 +1,33 @@
+<snippet>
+	<content><![CDATA[
+<!-- bs4 -->
+<nav class="nav justify-content-center nav-pills flex-column flex-sm-row">
+		<a href="#" class="nav-link active" data-toggle="tab">title</a>
+		<a href="#" class="nav-link" data-toggle="tab">title</a>
+		<a href="#" class="nav-link" data-toggle="tab">title</a>
+		<a href="#" class="nav-link" data-toggle="tab">title</a>
+	</nav>
+	<div class="tab-content">
+		<div class="tab-pane active" id="">
+			<h3></h3>
+			<p></p>
+		</div>
+		<div class="tab-pane" id="">
+			<h3></h3>
+			<p></p>
+		</div>
+		<div class="tab-pane" id="">
+			<h3></h3>
+			<p></p>
+		</div>
+		<div class="tab-pane" id="">
+			<h3></h3>
+			<p></p>
+		</div>
+	</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mybspills</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>
