@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 
-<div class="carousel slide" id#"mySlider" data-ride="carousel">
+<div class="carousel slide" id="mySlider" data-ride="carousel">
 <ol class="carousel-indicators">
 	<li data-target="mySlider" data-slide-to="0"></li>
 	<li data-target="mySlider" data-slide-to="1"></li>
@@ -34,6 +34,12 @@
 			</div>
 		</div>
 	</div>
+	<a class="left carousel-control" href="#myslider" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left"></span>
+	</a>
+	<a class="right carousel-control" href="#myslider" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right"></span>
+	</a>
 </div> 
 <!-- options -->
 <!-- \$(function(){

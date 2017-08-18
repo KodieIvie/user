@@ -6,12 +6,14 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
+		"AngularJS",
 		"Bootstrap 3 Autocomplete",
 		"Bootstrap 3 Snippets",
 		"Bootstrap 4 Autocomplete",
 		"Bootstrap 4 Snippets",
 		"Canvas Snippets",
 		"Color Highlighter",
+		"ColorPicker",
 		"CSS Snippets",
 		"Emmet",
 		"Emmet Css Snippets",
@@ -22,12 +24,23 @@
 		"Javascript Beautify",
 		"JavaScript Completions",
 		"JavaScript Snippets",
+		"Jedi - Python autocompletion",
 		"jQuery",
 		"jQuery Snippets pack",
 		"JS Snippets",
 		"JSONLint",
+		"Markdown Preview",
+		"More Python Completions",
 		"MySQL Snippets",
+		"Oblivion Color Scheme",
 		"Package Control",
-		"SASS Snippets"
+		"Print to HTML",
+		"Python 3",
+		"Python Completions",
+		"SASS Snippets",
+		"Simple Print Function",
+		"SublimeServer",
+		"Theme - SoDaReloaded",
+		"View In Browser"
 	]
 }

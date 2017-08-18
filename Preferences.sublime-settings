@@ -1,7 +1,9 @@
 {
-	"font_size": 15,
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"font_size": 14,
 	"ignored_packages":
 	[
 		"Vintage"
-	]
+	],
+	"theme": "SoDaReloaded Dark.sublime-theme"
 }

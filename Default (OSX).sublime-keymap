@@ -1,4 +1,5 @@
 [
 	{ "keys": ["command+i"], "command": "reindent" },
-	{ "keys": [""], "command": "" },
+	{ "keys": ["command+h"], "command": "sublimeserver_start" },
+	{ "keys": ["command+j"], "command": "sublimeserver_stop" },
 ]

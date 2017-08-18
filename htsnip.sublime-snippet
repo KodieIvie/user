@@ -15,16 +15,22 @@
 	<!-- <link href="css/bootstrap.css" rel="stylesheet" type="text/css"> -->
 	<!-- <link href="css/style.css" rel="stylesheet" type="text/css"> -->
 	
-	<title>${1}</title>
+	<title>${1:}</title>
 </head>
 <body>
-	${2}
+	${2:}
 
 
 	<!-- jQuery -->
-		<script src="https://code.jquery.com/jquery.js"></script>
-	<!-- Latest compiled and minified JavaScript -->
+
+		<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+		
+	<!-- Latest compiled and minified BS JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	${3:}
 		
 </body>
 </html>
