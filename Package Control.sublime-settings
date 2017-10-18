@@ -17,10 +17,13 @@
 		"CSS Snippets",
 		"Emmet",
 		"Emmet Css Snippets",
+		"Express Completion",
 		"Git",
 		"Grunt",
 		"Grunt Snippets",
+		"HTML Snippets",
 		"HTML-CSS-JS Prettify",
+		"HTML5",
 		"Javascript Beautify",
 		"JavaScript Completions",
 		"JavaScript Snippets",
@@ -29,6 +32,7 @@
 		"jQuery Snippets pack",
 		"JS Snippets",
 		"JSONLint",
+		"LaravelCollective HTML Form Snippets",
 		"Markdown Preview",
 		"More Python Completions",
 		"MySQL Snippets",
@@ -41,6 +45,8 @@
 		"Simple Print Function",
 		"SublimeServer",
 		"Theme - SoDaReloaded",
-		"View In Browser"
+		"View In Browser",
+		"Vuejs Complete Package",
+		"Vuejs Snippets"
 	]
 }

@@ -12,5 +12,5 @@
 		".md": "text/x-markdown; charset=UTF-8",
 		".py": "text/plain"
 	},
-	"port": 8080
+	"port": 8000
 }
