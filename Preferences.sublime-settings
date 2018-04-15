@@ -1,9 +1,18 @@
 {
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "bs3",
+			"selector": "text.html"
+		}
+	],
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-	"font_size": 14,
+	"font_size": 12,
 	"ignored_packages":
 	[
-		"Vintage"
+		"JavaScript Completions"
 	],
-	"theme": "SoDaReloaded Dark.sublime-theme"
+	"show_definitions": false,
+	"theme": "SoDaReloaded Dark.sublime-theme",
+	"word_wrap": "false"
 }

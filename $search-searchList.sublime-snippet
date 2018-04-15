@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+$("${1:.student-search input}").keyup(function () {
+    var filter = $(this).val();
+    $("ul li").each(function () {
+        if ($(this).text().search(new RegExp(filter, "i")) < 0) {
+            $(this).hide();
+        } else {
+            $(this).show()
+        }
+    });
+});
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>$search</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

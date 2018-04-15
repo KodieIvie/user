@@ -1,0 +1,56 @@
+<snippet>
+	<content><![CDATA[
+'use strict';
+
+const gulp = require('gulp'),
+    useref = require('gulp-useref'),
+       iff = require('gulp-if'),
+    uglify = require('gulp-uglify'),
+      csso = require('gulp-csso'),
+       del = require('del'),
+     image = require('gulp-image');
+
+let options = {
+  src: 'src',
+  dist: 'dist'
+};
+
+gulp.task('clean', function() {
+  del(['dist']);
+});
+
+gulp.task('images', function () {
+  gulp.src(options.src + '/img/**/*')
+    .pipe(image({
+      pngquant: true,
+      optipng: false,
+      zopflipng: false,
+      jpegRecompress: true,
+      mozjpeg: true,
+      guetzli: false,
+      gifsicle: true,
+      svgo: true,
+      concurrent: 10,
+      quiet: true // defaults to false
+    }))
+    .pipe(gulp.dest(options.dist + '/img'));
+});
+
+gulp.task('html', function() {
+  gulp.src(options.src + '/index.html')
+      .pipe(useref())
+      .pipe(iff('*.js', uglify()))
+      .pipe(iff('*.css', csso()))
+      .pipe(gulp.dest(options.dist));
+});
+
+gulp.task('default', [
+   'html'
+]);
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gulp</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.js</scope> -->
+</snippet>

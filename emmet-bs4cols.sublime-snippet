@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+.container-fluid>.row>(.col>div.text-center>a>img[src="https://picsum.photos/300/300/?random"]+div>h4>p{awesome div's}+small{This is bootstrap})*21
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>emmet</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
